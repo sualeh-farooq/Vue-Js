@@ -12,7 +12,7 @@
 import axios from "axios";
 import VueAxios from "vue-axios";
 import Vue from "vue";
-import bootstrapVue from '@/plugins/bootstrap-vue'
+// import bootstrapVue from '@/plugins/bootstrap-vue'
 // fetch('https://jsonplaceholder.typicode.com/todos')
 // .then((res)=>console.log(res))
 

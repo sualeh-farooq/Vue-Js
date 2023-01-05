@@ -4,10 +4,12 @@
     <h1 v-bind:style="{ color: 'purple' }">{{ message }}</h1>
     <!-- <ButtonCompVue age="18" /> -->
     <EmployesVue />
+    <calenderVue />
   </div>
 </template>
 
 <script>
+import calenderVue from './calender.vue';
 // import ButtonCompVue from "./ButtonComp.vue";
 import EmployesVue from "./Employes.vue";
 export default {
@@ -19,7 +21,8 @@ export default {
   },
   components: {
     // ButtonCompVue,
-    EmployesVue
+    EmployesVue ,
+    calenderVue
   },
   props: {
     msg: String,
