@@ -3,15 +3,19 @@
     <!-- <h1 v-bind:class="ShowStyle ? 'head' : 'para'">{{ message }}</h1> -->
     <h1 v-bind:style="{ color: 'purple' }">{{ message }}</h1>
     <!-- <ButtonCompVue age="18" /> -->
-    <EmployesVue />
-    <calenderVue />
+    <!-- <EmployesVue /> -->
+    <!-- <calenderVue /> -->
+    <PostVue />
+    <UserDataVue />
   </div>
 </template>
 
 <script>
-import calenderVue from './calender.vue';
+// import calenderVue from './calender.vue';
 // import ButtonCompVue from "./ButtonComp.vue";
-import EmployesVue from "./Employes.vue";
+// import EmployesVue from "./Employes.vue";
+import PostVue from './Post.vue';
+import UserDataVue from './UserData.vue';
 export default {
   name: "HelloWorld",
   methods: { 
@@ -21,8 +25,11 @@ export default {
   },
   components: {
     // ButtonCompVue,
-    EmployesVue ,
-    calenderVue
+    // EmployesVue ,
+    // calenderVue , 
+    PostVue ,
+    UserDataVue
+  
   },
   props: {
     msg: String,

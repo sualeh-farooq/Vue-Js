@@ -1,19 +1,19 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "email": "sualeh@gmail.com",
+      "name": "sualeh",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "email": "sufiyan@gmail.com",
+      "name": "sufiyan",
+      "id": 2
+    },
+    {
+      "email": "mubashir@gmail.com",
+      "name": "mubashir",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

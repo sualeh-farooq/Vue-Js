@@ -16,7 +16,7 @@
 {{data.category}}
     </b-card-text>
     <small>{{ data.description }}</small>
-    <b-button href="#" variant="primary"> Rs  {{ data.price }}</b-button>
+    <b-button href  ="#" variant="primary"> Rs  {{ data.price }}</b-button>
   </b-card>
 </div>
 
@@ -30,7 +30,6 @@
 import Vue from "vue";
 import axios from "axios";
 import VueAxios from "vue-axios";
-
 Vue.use(VueAxios, axios);
 
 export default {
