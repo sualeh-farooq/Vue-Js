@@ -1,3 +1,4 @@
+import 'mutationobserver-shim'
 import Vue from 'vue'
 import App from './App.vue'
 
